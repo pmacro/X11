@@ -1,6 +1,7 @@
 module X11 [system] {
   header "/usr/include/X11/Xlib.h"
   header "/usr/include/X11/Xutil.h"
+  header "/usr/include/X11/Xresource.h"
   link "X11"
   export *
 }
